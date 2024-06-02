@@ -18,6 +18,7 @@ import IssueIV from './pages/issues/IssueIV'
 import IssueIII from './pages/issues/IssueIII'
 import IssueII from './pages/issues/IssueII'
 import IssueI from './pages/issues/IssueI'
+import Submissions from './pages/Submissions'
 
 const App: React.FC = () => {
   return (
@@ -30,6 +31,7 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/submissions" element={<Submissions />} />
             <Route path="/issue-i" element={<IssueI />} />
             <Route path="/issue-ii" element={<IssueII />} />
             <Route path="/issue-iii" element={<IssueIII />} />

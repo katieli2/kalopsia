@@ -34,6 +34,7 @@ const FAQ: React.FC = () => {
         <h3>Can I find Kalopsia in print?</h3>
         <p>As of now, Kalopsia is exclusively a digital publication.</p>
       </div>
+      <br></br>
       <h4>Feel free to contact hello@kalopsialit.org with any further questions.</h4>
     </div>
   );

@@ -1,14 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar: React.FC = () => {
   return (
     <nav>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><NavLink to="/" className={({ isActive }) => isActive ? 'current-page' : ''}>Issues</NavLink></li>
+        <li><NavLink to="/about" className={({ isActive }) => isActive ? 'current-page' : ''}>About</NavLink></li>
+        <li><NavLink to="/submissions" className={({ isActive }) => isActive ? 'current-page' : ''}>Submissions</NavLink></li>
+        <li><NavLink to="/faq" className={({ isActive }) => isActive ? 'current-page' : ''}>FAQ</NavLink></li>
+        <li><NavLink to="/contact" className={({ isActive }) => isActive ? 'current-page' : ''}>Contact</NavLink></li>
       </ul>
     </nav>
   );

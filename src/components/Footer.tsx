@@ -5,9 +5,10 @@ import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg
 const Footer: React.FC = () => {
   return (
     <footer>
-      <a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
-      <a href="https://facebook.com"><FontAwesomeIcon icon={faFacebook} /></a>
-      <a href="https://instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
+      <a href="https://twitter.com/kalopsialit"><FontAwesomeIcon icon={faTwitter} /></a>
+      <a href="https://www.instagram.com/kalopsialit"><FontAwesomeIcon icon={faInstagram} /></a>
+      <a href="https://www.facebook.com/KalopsiaLitMag"><FontAwesomeIcon icon={faFacebook} /></a>
+      <p>© 2020 Kalopsia Literary Journal</p>
     </footer>
   );
 };
