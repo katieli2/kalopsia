@@ -5,7 +5,8 @@ import './FAQ.css';
 const FAQ: React.FC = () => {
   return (
     <div className="faq">
-      <h2>FAQ</h2>
+      <h2>Frequently Asked Questions</h2>
+      <br></br>
       <div className="faq-item">
         <h3>What types of writing do you accept?</h3>
         <p>Kalopsia accepts poetry and prose (both fiction and nonfiction); we encourage risk-taking, exploration, and fusion between genres. We are open to all subject matters. If in doubt, send it in.</p>
@@ -35,7 +36,7 @@ const FAQ: React.FC = () => {
         <p>As of now, Kalopsia is exclusively a digital publication.</p>
       </div>
       <br></br>
-      <h4>Feel free to contact hello@kalopsialit.org with any further questions.</h4>
+      <h4>Feel free to contact kalopsialit@gmail.com with any further questions.</h4>
     </div>
   );
 };

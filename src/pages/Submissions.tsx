@@ -7,7 +7,6 @@ const Submissions: React.FC = () => {
     <div className="submissions">
       <h2>Submissions</h2>
 
-      <h3>General Guidelines</h3>
       <p><b>We're currently closed for submissions.</b> We do not read or respond to submissions that don't adhere to the guidelines listed on this page, including those sent via email.</p>
 
       <p>Kalopsia invites submissions of poetry, prose, and visual art from anyone and everyone. All subject matters are welcome; that being said, Kalopsia will not publish anything overly graphic or offensive. We encourage you to read previous issues to get a feel for what we publish. All poetry and prose submissions must be written in English.</p>
