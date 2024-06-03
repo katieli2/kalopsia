@@ -72,7 +72,7 @@ const IssueIX: React.FC = () => {
         </head>
         <body>
             <div className="pdf-wrapper">
-                <h1>Issue IX — June 2022</h1>
+                <h1 style={{ textAlign: 'center' }}>Issue IX — June 2022</h1>
                 <iframe
                     src="https://drive.google.com/file/d/1OWKOqr7Xe9PC4AeWcbPcYfT_Xdc_PJ-M/preview"
                     className="pdf-container"
